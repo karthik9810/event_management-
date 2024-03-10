@@ -1,0 +1,75 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif; /* Use the Montserrat font */
+}
+
+/* Header Section Styles */
+.site-header {
+    background-color: #333; /* Dark background color */
+    padding: 15px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #fff;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #3498db; /* Highlight color on hover */
+}
+
+/* Trendy Design for Menu Bar */
+.navbar {
+    background: linear-gradient(90deg, #e74c3c, #3498db); /* Gradient background */
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.navbar a {
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background on hover */
+}
